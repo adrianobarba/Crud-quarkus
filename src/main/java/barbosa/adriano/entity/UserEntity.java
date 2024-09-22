@@ -11,7 +11,7 @@ public class UserEntity extends PanacheEntityBase {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID userId;
+    public UUID userId;
 
-    private String username;
+    public String username;
 }
